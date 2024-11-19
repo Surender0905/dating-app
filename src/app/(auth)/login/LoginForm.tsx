@@ -17,7 +17,7 @@ export default function LoginForm() {
     });
     const onSubmit = (data: LoginSchema) => console.log(data);
     return (
-        <Card className="w-3/6 mx-auto">
+        <Card className="w-1/3 mx-auto">
             <CardHeader className="flex flex-col items-center justify-center">
                 <div className="flex flex-col gap-2 items-center text-default">
                     <div className="flex flex-row items-center gap-3">
